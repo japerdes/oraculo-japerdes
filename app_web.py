@@ -20,7 +20,8 @@ st.title("O Oráculo")
 st.write("A verdade não usa roupas de grife.")
 
 # Inicializar Groq
-client = Groq(api_key="TUA_CHAVE_GROQ_AQUI")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+client = Groq(api_key=GROQ_API_KEY)
 
 # Sistema de Limite Simples (Sessão do Navegador)
 if 'consultas' not in st.session_state:
