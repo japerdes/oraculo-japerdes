@@ -16,7 +16,7 @@ st.markdown("""
 
 # Interface
 st.image("LOGO JP-2025.png", width=200)
-st.title("O Oráculo")
+st.title("O diário de um otário")
 st.write("A verdade não usa roupas de grife.")
 
 # Inicializar Groq
